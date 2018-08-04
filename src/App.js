@@ -4,6 +4,7 @@ import './App.css';
 import Simple from './examples/simple'
 import CrossFile from "./examples/cross-files"
 import DefaultValue from "./examples/default-value"
+import DynamicContext from "./examples/dynamic-context"
 class App extends Component {
   render() {
     
@@ -12,6 +13,7 @@ class App extends Component {
         Simple: <Simple />
         CrossFile: <CrossFile /> 
         Default Value: <DefaultValue />
+        Dynamic Context: <DynamicContext />
       </div>
     );
   }
